@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <title>STEM Registration</title>
+    <link rel="stylesheet" href="Project.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=shadow-multiple"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Trirong"
+    />
+  </head>
+  <h1 id="Form" class="font-effect-shadow-multiple">
+    STEM 2.0-Web Development Form
+  </h1>
+  <p id="qualify">
+    To Qualify for the STEM 2.0 you will be required to fill the form below:
+  </p>
+  <body id="body">
+    <form>
+      <label class="first name">First Name</label><br />
+      <input type="text" name="First name" /><br /><br />
+      <label class="lastname">Last Name</label><br />
+      <input type="text" name="Last name" /><br /><br />
+      <label class="Gender">Gender</label><br />
+      <input type="text" name="Gender" /><br /><br />
+      <label class="phonenumber">Phone Number</label><br />
+      <input
+        type="tel"
+        name="Phone Number"
+        placeholder="0123456"
+        minlength="1"
+        maxlength="6"
+      /><br /><br />
+      <label class="age">Age(For Adults Only)</label><br />
+      <input type="number" name="Age" min="18" /><br /><br />
+      <p class="laptop">Do you have a laptop</p>
+      <input type="radio" id="yes" name="fav_language" value="Yes" />
+      <label for="yes">Yes</label><br />
+      <input type="radio" id="no" name="fav_language" value="No" />
+      <label for="no">No</label><br />
+      <p class="subject">
+        Select subjects you enjoy doing in your secondary school
+      </p>
+      <div class="div2">
+        <label class="container"
+          >Mathematics
+          <input type="checkbox" checked="checked" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="container"
+          >English Language
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="container"
+          >Computer Studies
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="container"
+          >Further Mathematics
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="container"
+          >Biology
+          <input type="checkbox" checked="checked" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="container"
+          >Chemistry
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="container"
+          >Physics
+          <input type="checkbox" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="container"
+          >Art
+          <input type="checkbox" />
+          <span class="checkmark"></span> </label
+        ><br /><br />
+      </div>
+      <h4>
+        Visit our Registration Table in the next 42hours to see if you
+        qualified;
+      </h4>
+      <a href="http://127.0.0.1:5500/Project3.html">Registration Table</a
+      ><br /><br />
+      <input type="submit" class="submit" />
+    </form>
+  </body>
+</html>
